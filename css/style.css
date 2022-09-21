@@ -454,13 +454,13 @@ img {
 /* buttons */
 .cards {
 }
-.btn-list {
+.btn__list {
   display: flex;
   justify-content: center;
   gap: 8px;
   margin-bottom: 50px;
 }
-.btn-list__item {
+.btn__item {
 }
 .btn {
   font-family: var(--main-font);
@@ -483,19 +483,19 @@ img {
   transition: background-color 250ms var(--main-transition), color 250ms var(--main-transition),
     box-shadow 250ms var(--main-transition);
 }
-.btn-list__one {
+.btn__first {
   padding-top: 6px;
   padding-bottom: 6px;
   padding-right: 25px;
   padding-left: 25px;
 }
-.btn-list__two {
+.btn__second {
 }
-.btn-list__three {
+.btn__third {
 }
-.btn-list__four {
+.btn__fourth {
 }
-.btn-list__five {
+.btn__fifth {
 }
 
 .btn:hover,
@@ -505,38 +505,38 @@ img {
   background-color: var(--main-accent);
   color: var(--main-white);
 }
-.current-btn {
+.btn--current {
   background-color: var(--main-accent);
   color: var(--main-white);
 }
-.current-btn:hover,
-.current-btn:focus {
+.btn--current:hover,
+.btn--current:focus {
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 
   background-color: #188ce8;
 }
 /* cards */
-.cards-list {
+.cards__list {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
 }
-.cards-list__link {
+.cards__link {
   display: block;
 
   transition: box-shadow 250ms var(--main-transition);
 }
-.cards-list__link:hover,
-.cards-list__link:focus {
+.cards__link:hover,
+.cards__link:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
-.cards-thumb {
+.cards__thumb {
   position: relative;
 
   overflow: hidden;
 }
-.cards-overlay {
+.cards__overlay {
   position: absolute;
   left: 0;
   bottom: 0;
@@ -550,11 +550,11 @@ img {
 
   transition: transform 250ms var(--main-transition);
 }
-.cards-list__link:hover .cards-overlay,
-.cards-list__link:focus .cards-overlay {
+.cards__link:hover .cards__overlay,
+.cards__link:focus .cards__overlay {
   transform: translateX(0%);
 }
-.cards-text {
+.cards__text {
   padding: 63px 24px;
 
   font-size: 18px;
@@ -562,20 +562,20 @@ img {
   letter-spacing: 0.03em;
   color: #ffffff;
 }
-.cards-list__item {
+.cards__item {
   width: calc((100% - 60px) / 3);
 
   border: 1px solid #eeeeee;
   background: #ffffff;
 }
 
-.cards-list__container {
+.cards__text-wrapper {
   padding-top: 20px;
   padding-bottom: 20px;
   padding-right: 24px;
   padding-left: 24px;
 }
-.cards-list__header {
+.cards__title {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -586,7 +586,7 @@ img {
 
   color: var(--main-dark);
 }
-.cards-list__subtitle {
+.cards__description {
   font-size: 16px;
   line-height: 1.9;
 
