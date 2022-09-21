@@ -601,11 +601,11 @@ img {
 
   background-color: #2f303a;
 }
-.footer-container {
+.footer__container {
   display: flex;
   align-items: baseline;
 }
-.footer-wrapper {
+.footer__wrapper {
   margin-right: 70px;
 }
 .footer__logo {
@@ -626,7 +626,7 @@ img {
 .footer__link:focus {
   color: var(--main-accent);
 }
-.footer__link--grey {
+.footer__link--white {
   color: var(--main-white);
 }
 .footer__item {
@@ -637,7 +637,7 @@ img {
 }
 
 /* socials */
-.footer-socials {
+.footer__socials {
   margin-right: 93px;
 }
 .footer-socials__text {
@@ -651,7 +651,7 @@ img {
 
   color: var(--main-white);
 }
-.footer-socials-list {
+.footer-socials__list {
   display: flex;
   gap: 10px;
 }
@@ -678,9 +678,9 @@ img {
   fill: var(--main-white);
 }
 /* footer form */
-.form {
+.footer__form {
 }
-.footer-form {
+.footer-form__container {
 }
 .footer-form__header {
   display: inline-block;
@@ -813,7 +813,7 @@ img {
 
   margin-bottom: 12px;
 }
-.form-field {
+.form__field {
 }
 .form-field__label {
   position: relative;
@@ -872,10 +872,10 @@ img {
   resize: none;
 }
 /* form-agreement */
-.form-agreement {
+.form__agreement {
   display: flex;
   margin-bottom: 30px;
-  gap: 8px;
+  gap: 9px;
   align-items: center;
   justify-content: center;
 }
@@ -888,15 +888,21 @@ img {
   opacity: 1;
 }
 .form-agreement__unchecked {
-  opacity: 1;
-
   transition: opacity 250ms var(--main-transition);
 }
 .form-agreement__checkbox:checked + .form-agreement__icons .form-agreement__unchecked {
   opacity: 0;
 }
-.form-agreement__checkbox:focus + .form-agreement__icons .form-agreement__checked {
-  opacity: 1;
+
+.form-agreement__checkbox:focus-visible:not(:checked) + .form-agreement__icons,
+.form-agreement__checkbox:focus-visible:checked + .form-agreement__icons,
+.form-agreement__checkbox:disabled + .form-agreement__icons {
+  outline: transparent;
+}
+.form-agreement__checkbox:focus:focus-visible + .form-agreement__icons {
+  outline: 2px solid rgb(56, 87, 107);
+  outline-offset: 1px;
+  border-radius: 2px;
 }
 
 .form-agreement__description {
@@ -911,8 +917,10 @@ img {
   color: var(--main-accent);
 }
 .form__button {
+  display: block;
   min-width: 200px;
   max-height: 50px;
-
+  margin-right: auto;
+  margin-left: auto;
   padding: 10px 52px;
 }
