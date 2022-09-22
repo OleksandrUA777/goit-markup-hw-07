@@ -713,7 +713,7 @@ p {
   fill: var(--main-accent);
 } */
 /* form */
-.form {
+/* .form {
 }
 .form__title {
   display: block;
@@ -784,7 +784,7 @@ p {
   resize: none;
 }
 /* form-agreement */
-.form__agreement {
+/* .form__agreement {
   display: flex;
   margin-bottom: 30px;
   gap: 9px;
@@ -835,4 +835,4 @@ p {
   margin-right: auto;
   margin-left: auto;
   padding: 10px 52px;
-}
+} */

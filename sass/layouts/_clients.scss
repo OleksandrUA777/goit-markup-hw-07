@@ -3,7 +3,9 @@
   | Clients
   |============================
 */
-
+.сlients {
+  @extend %section;
+}
 .clients__header {
   font-weight: 700;
   font-size: 36px;
@@ -16,6 +18,8 @@
   color: #212121;
 }
 .clients__list {
+  @extend %list;
+
   display: flex;
   gap: 30px;
 }

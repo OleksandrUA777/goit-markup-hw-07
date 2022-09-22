@@ -1,6 +1,7 @@
 // utils styles
 @import './utils/vars';
 @import './utils/visually-hidden';
+@import './utils/placeholders';
 // base styles
 @import './base/reset';
 @import './base/base';
@@ -14,6 +15,7 @@
 @import './layouts/work';
 @import './layouts/team';
 @import './layouts/clients';
+@import './layouts/cards';
 @import './layouts/footer';
 @import './layouts/footer-form';
 

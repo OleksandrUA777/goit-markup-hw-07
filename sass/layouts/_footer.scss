@@ -23,6 +23,8 @@
   color: var(--main-white);
 }
 .footer__link {
+  @extend %link;
+
   font-style: normal;
   line-height: 1.7;
 
@@ -39,7 +41,9 @@
     color: var(--main-white);
   }
 }
-
+.footer__list {
+  @extend %list;
+}
 .footer__item {
   margin-bottom: 9px;
 
@@ -64,6 +68,8 @@
   color: var(--main-white);
 }
 .footer-socials__list {
+  @extend %list;
+
   display: flex;
   gap: 10px;
 }

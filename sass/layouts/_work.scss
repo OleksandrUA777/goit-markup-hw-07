@@ -4,6 +4,7 @@
   |============================
 */
 .work {
+  @extend %section;
   padding-top: 0;
 }
 .work__header {
@@ -17,6 +18,8 @@
   color: var(--main-dark);
 }
 .work__list {
+  @extend %list;
+
   display: flex;
   gap: 30px;
 }

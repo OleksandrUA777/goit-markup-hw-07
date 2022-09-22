@@ -11,6 +11,8 @@
   align-items: center;
 }
 .header__link {
+  @extend %link;
+
   display: inline-block;
   padding-top: 32px;
   padding-bottom: 32px;
@@ -28,6 +30,8 @@
 }
 
 .header-contact__group {
+  @extend %list;
+
   display: flex;
   align-items: center;
 }

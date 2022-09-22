@@ -4,7 +4,12 @@
   |============================
 */
 // buttons
+.cards {
+  @extend %section;
+}
 .btn__list {
+  @extend %list;
+
   display: flex;
   justify-content: center;
   gap: 8px;
@@ -30,6 +35,8 @@
 }
 // Cards
 .cards__link {
+  @extend %link;
+
   display: block;
 
   transition: box-shadow 250ms var(--main-transition);
