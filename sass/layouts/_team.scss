@@ -4,7 +4,7 @@
   |============================
 */
 .team {
-  @extend %section;
+  @include section;
 
   background-color: var(--btn-light);
 }

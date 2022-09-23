@@ -39,11 +39,6 @@
   margin: -1px;
 }
 
-.cards, .сlients, .team, .work, .advantages {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
-
 .logo, .footer__link, .cards__link, .header__link {
   text-decoration: none;
 }
@@ -142,7 +137,7 @@ body {
   padding-top: 32px;
   padding-bottom: 32px;
   font-weight: 500;
-  line-height: 1.2;
+  line-height: decimals-round 1.2;
   letter-spacing: 0.02em;
   -webkit-transition: color 250ms var(--main-transition);
   transition: color 250ms var(--main-transition);
@@ -267,9 +262,9 @@ body {
   margin-bottom: 30px;
   font-weight: 900;
   font-size: 44px;
-  line-height: 1.4;
-  text-align: center;
+  line-height: decimals-round 1.4;
   letter-spacing: 0.06em;
+  text-align: center;
   text-transform: uppercase;
   color: var(--main-white);
 }
@@ -286,6 +281,11 @@ body {
   | Advantages
   |============================
 */
+.advantages {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .advantages__list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -312,13 +312,13 @@ body {
 .advantages__title {
   font-weight: 700;
   font-size: 14px;
-  line-height: 1.2;
+  line-height: decimals-round 1.2;
   text-transform: uppercase;
   margin-bottom: 10px;
 }
 
 .advantages__description {
-  line-height: 1.7;
+  line-height: decimals-round 1.7;
   width: 270px;
   color: var(--main-light);
 }
@@ -329,13 +329,15 @@ body {
   |============================
 */
 .work {
+  padding-top: 94px;
+  padding-bottom: 94px;
   padding-top: 0;
 }
 
 .work__header {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.2;
+  line-height: decimals-round 1.2;
   text-align: center;
   margin-bottom: 50px;
   color: var(--main-dark);
@@ -361,7 +363,7 @@ body {
   padding-bottom: 27px;
   background: rgba(47, 48, 58, 0.8);
   font-weight: 700;
-  line-height: 1.1428571429;
+  line-height: decimals-round 1.1428571429;
   text-align: center;
   text-transform: uppercase;
   color: var(--main-white);
@@ -373,6 +375,8 @@ body {
   |============================
 */
 .team {
+  padding-top: 94px;
+  padding-bottom: 94px;
   background-color: var(--btn-light);
 }
 
@@ -465,6 +469,11 @@ body {
   | Clients
   |============================
 */
+.сlients {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .clients__header {
   font-weight: 700;
   font-size: 36px;
@@ -523,6 +532,11 @@ body {
   | Cards
   |============================
 */
+.cards {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .btn__list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -874,7 +888,7 @@ body {
   font-family: "Raleway";
   font-weight: 700;
   font-size: 26px;
-  line-height: 1.2;
+  line-height: decimals-round 1.2;
 }
 
 .logo__blue {

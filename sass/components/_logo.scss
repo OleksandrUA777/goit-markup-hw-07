@@ -6,9 +6,11 @@
 .logo {
   @extend %link;
   font-family: 'Raleway';
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.2;
+
+  @include fonts(700, 26px, 1.2, null);
+  // font-weight: 700;
+  // font-size: 26px;
+  // line-height: 1.2;
 }
 .logo__blue {
   font-family: var(--secondary-font);

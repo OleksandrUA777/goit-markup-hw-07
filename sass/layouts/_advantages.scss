@@ -4,7 +4,7 @@
   |============================
 */
 .advantages {
-  @extend %section;
+  @include section;
 }
 .advantages__list {
   @extend %list;
@@ -27,16 +27,14 @@
   background-color: var(--btn-light);
 }
 .advantages__title {
-  font-weight: 700;
-  font-size: 14px;
+  @include fonts(700, 14px, 1.2, null);
 
-  line-height: 1.2;
   text-transform: uppercase;
 
   margin-bottom: 10px;
 }
 .advantages__description {
-  line-height: 1.7;
+  @include fonts(null, null, 1.7, null);
 
   width: 270px;
   color: var(--main-light);

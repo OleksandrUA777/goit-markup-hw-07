@@ -5,7 +5,7 @@
 */
 // buttons
 .cards {
-  @extend %section;
+  @include section;
 }
 .btn__list {
   @extend %list;

@@ -4,7 +4,7 @@
   |============================
 */
 .сlients {
-  @extend %section;
+  @include section;
 }
 .clients__header {
   font-weight: 700;
