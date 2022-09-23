@@ -26,8 +26,8 @@
 .footer__link {
   @extend %link;
 
+  @include fonts(null, 14px, 24px, null);
   font-style: normal;
-  line-height: 1.7;
 
   color: var(--main-white-opacity);
 
@@ -58,10 +58,7 @@
   margin-right: 93px;
 }
 .footer-socials__text {
-  font-weight: 700;
-  font-size: 14px;
-  line-height: calc(16 / 14);
-  letter-spacing: 0.03em;
+  @include fonts(700, 14px, 16px, null);
   text-transform: uppercase;
 
   margin-bottom: 20px;

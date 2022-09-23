@@ -7,11 +7,8 @@
   @include section;
 }
 .clients__header {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: calc(42 / 36);
+  @include fonts(700, 36px, 42px, null);
   text-align: center;
-  letter-spacing: 0.03em;
 
   margin-bottom: 50px;
 

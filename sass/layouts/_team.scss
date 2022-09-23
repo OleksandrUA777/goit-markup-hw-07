@@ -9,11 +9,8 @@
   background-color: var(--btn-light);
 }
 .team__header {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.2;
+  @include fonts(700, 36px, 42px, null);
   text-align: center;
-  letter-spacing: 0.03em;
 
   margin-bottom: 50px;
 }
@@ -36,21 +33,16 @@
   padding-bottom: 30px;
 }
 .team__name {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.2;
+  @include fonts(500, 16px, 19px, null);
 
   margin-bottom: 10px;
 
   text-align: center;
 }
 .team__description {
-  font-size: 16px;
-  line-height: 1.2;
-
-  margin-bottom: 16px;
-
+  @include fonts(null, 16px, 19px, null);
   text-align: center;
+  margin-bottom: 16px;
 
   color: var(--main-light);
 }

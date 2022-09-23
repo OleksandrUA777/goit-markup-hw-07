@@ -27,14 +27,14 @@
   background-color: var(--btn-light);
 }
 .advantages__title {
-  @include fonts(700, 14px, 1.2, null);
+  @include fonts(700, 14px, 16px, null);
 
   text-transform: uppercase;
 
   margin-bottom: 10px;
 }
 .advantages__description {
-  @include fonts(null, null, 1.7, null);
+  @include fonts(null, 14px, 24px, null);
 
   width: 270px;
   color: var(--main-light);

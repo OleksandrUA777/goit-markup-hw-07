@@ -67,13 +67,11 @@
 
 .form__title {
   display: block;
-
-  font-size: 20px;
-  line-height: calc(23 / 20);
-  text-align: center;
-  letter-spacing: 0.03em;
-
   margin-bottom: 12px;
+
+  @include fonts(null, 20px, 23px, null);
+
+  text-align: center;
 }
 .form__field {
 }
@@ -84,11 +82,9 @@
 }
 .form-field__title {
   display: inline-block;
-  font-size: 12px;
-  line-height: calc(14 / 12);
-  letter-spacing: 0.01em;
-
   margin-bottom: 4px;
+
+  @include fonts(null, 12px, 14px, 0.01em);
 
   color: #757575;
 }

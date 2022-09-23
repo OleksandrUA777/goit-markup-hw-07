@@ -7,7 +7,7 @@
   display: inline-block;
   margin-bottom: 20px;
 
-  line-height: calc(16 / 14);
+  @include fonts(null, 14px, 16px, null);
   text-transform: uppercase;
 
   color: var(--main-white);

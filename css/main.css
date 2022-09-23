@@ -137,7 +137,8 @@ body {
   padding-top: 32px;
   padding-bottom: 32px;
   font-weight: 500;
-  line-height: decimals-round 1.2;
+  font-size: 14px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
   -webkit-transition: color 250ms var(--main-transition);
   transition: color 250ms var(--main-transition);
@@ -262,7 +263,7 @@ body {
   margin-bottom: 30px;
   font-weight: 900;
   font-size: 44px;
-  line-height: decimals-round 1.4;
+  line-height: 1.36;
   letter-spacing: 0.06em;
   text-align: center;
   text-transform: uppercase;
@@ -312,13 +313,14 @@ body {
 .advantages__title {
   font-weight: 700;
   font-size: 14px;
-  line-height: decimals-round 1.2;
+  line-height: 1.14;
   text-transform: uppercase;
   margin-bottom: 10px;
 }
 
 .advantages__description {
-  line-height: decimals-round 1.7;
+  font-size: 14px;
+  line-height: 1.71;
   width: 270px;
   color: var(--main-light);
 }
@@ -337,7 +339,7 @@ body {
 .work__header {
   font-weight: 700;
   font-size: 36px;
-  line-height: decimals-round 1.2;
+  line-height: 1.17;
   text-align: center;
   margin-bottom: 50px;
   color: var(--main-dark);
@@ -363,7 +365,8 @@ body {
   padding-bottom: 27px;
   background: rgba(47, 48, 58, 0.8);
   font-weight: 700;
-  line-height: decimals-round 1.1428571429;
+  font-size: 14px;
+  line-height: 1.14;
   text-align: center;
   text-transform: uppercase;
   color: var(--main-white);
@@ -383,9 +386,8 @@ body {
 .team__header {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.2;
+  line-height: 1.17;
   text-align: center;
-  letter-spacing: 0.03em;
   margin-bottom: 50px;
 }
 
@@ -411,16 +413,16 @@ body {
 .team__name {
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.2;
+  line-height: 1.19;
   margin-bottom: 10px;
   text-align: center;
 }
 
 .team__description {
   font-size: 16px;
-  line-height: 1.2;
-  margin-bottom: 16px;
+  line-height: 1.19;
   text-align: center;
+  margin-bottom: 16px;
   color: var(--main-light);
 }
 
@@ -477,9 +479,8 @@ body {
 .clients__header {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.1666666667;
+  line-height: 1.17;
   text-align: center;
-  letter-spacing: 0.03em;
   margin-bottom: 50px;
   color: #212121;
 }
@@ -607,7 +608,6 @@ body {
   padding: 63px 24px;
   font-size: 18px;
   line-height: 1.56;
-  letter-spacing: 0.03em;
   color: #ffffff;
 }
 
@@ -622,15 +622,14 @@ body {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
-  margin-bottom: 4px;
   letter-spacing: 0.06em;
+  margin-bottom: 4px;
   color: var(--main-dark);
 }
 
 .cards__description {
   font-size: 16px;
-  line-height: 1.9;
-  letter-spacing: 0.03em;
+  line-height: 1.88;
   color: #757575;
 }
 
@@ -665,8 +664,9 @@ body {
 }
 
 .footer__link {
+  font-size: 14px;
+  line-height: 1.71;
   font-style: normal;
-  line-height: 1.7;
   color: var(--main-white-opacity);
   -webkit-transition: color 250ms var(--main-transition);
   transition: color 250ms var(--main-transition);
@@ -693,8 +693,7 @@ body {
 .footer-socials__text {
   font-weight: 700;
   font-size: 14px;
-  line-height: 1.1428571429;
-  letter-spacing: 0.03em;
+  line-height: 1.14;
   text-transform: uppercase;
   margin-bottom: 20px;
   color: var(--main-white);
@@ -740,7 +739,8 @@ body {
 .footer-form__header {
   display: inline-block;
   margin-bottom: 20px;
-  line-height: 1.1428571429;
+  font-size: 14px;
+  line-height: 1.14;
   text-transform: uppercase;
   color: var(--main-white);
 }
@@ -817,11 +817,11 @@ body {
 
 .button {
   font-family: var(--main-font);
-  cursor: pointer;
   font-weight: 700;
   font-size: 16px;
-  line-height: 1.9;
+  line-height: 1.88;
   letter-spacing: 0.06em;
+  cursor: pointer;
   border-radius: 4px;
   border: none;
   color: var(--main-white);
@@ -842,8 +842,7 @@ body {
   cursor: pointer;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.6;
-  letter-spacing: 0.03em;
+  line-height: 1.63;
   padding-top: 6px;
   padding-bottom: 6px;
   padding-right: 22px;
@@ -888,7 +887,7 @@ body {
   font-family: "Raleway";
   font-weight: 700;
   font-size: 26px;
-  line-height: decimals-round 1.2;
+  line-height: 1.15;
 }
 
 .logo__blue {
@@ -971,11 +970,10 @@ body {
 */
 .form__title {
   display: block;
+  margin-bottom: 12px;
   font-size: 20px;
   line-height: 1.15;
   text-align: center;
-  letter-spacing: 0.03em;
-  margin-bottom: 12px;
 }
 
 .form-field__label {
@@ -986,10 +984,10 @@ body {
 
 .form-field__title {
   display: inline-block;
-  font-size: 12px;
-  line-height: 1.1666666667;
-  letter-spacing: 0.01em;
   margin-bottom: 4px;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.01em;
   color: #757575;
 }
 
