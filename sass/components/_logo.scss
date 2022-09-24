@@ -8,9 +8,10 @@
   font-family: 'Raleway';
 
   @include fonts(700, 26px, 30px, null);
-}
-.logo__blue {
-  font-family: var(--secondary-font);
 
-  color: var(--main-accent);
+  &__blue {
+    font-family: var(--secondary-font);
+
+    color: var(--main-accent);
+  }
 }
